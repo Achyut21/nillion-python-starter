@@ -12,8 +12,8 @@ def nada_main():
     my_int2 = SecretInteger(Input(name="my_int2", party=party1))  # Multiplier value
 
     # Constants for the LCG as SecretIntegers
-    increment = SecretInteger(Input(name="increment", party=party1))  # SecretInteger for increment
-    modulus = SecretInteger(Input(name="modulus", party=party1))      # SecretInteger for modulus
+    increment = Integer(120)
+    modulus = Integer(5)
     n = 10
 
     # Generate the pseudo-random number
